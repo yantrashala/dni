@@ -1,7 +1,7 @@
 {
   "name": "dni",
   "version": "1.0.0",
-  "description": "Node utility to download and extract a deployable module and install its dependencies",
+  "description": "Node utility to download and install a deployable module and install its dependencies",
   "main": "index.js",
   "dependencies": {
     "npm": "^4.4.1",
@@ -25,12 +25,14 @@
   },
   "author": "",
   "license": "MIT",
-  "readme": "Node utility to download and extract a deployable module and install its dependencies",
+  "readme": "Node utility to download and install a deployable module and install its dependencies",
   "keywords": [
     "deployable module",
-    "Node utility",
+    "node utility",
     "extract",
     "download",
-    "dependencies"
+    "dependencies",
+    "dni",
+    "install"
   ]
 }
