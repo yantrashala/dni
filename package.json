@@ -4,7 +4,7 @@
   "description": "Node utility to download and install a deployable module and install its dependencies",
   "main": "index.js",
   "dependencies": {
-    "fse": "^1.0.1",
+    "fs-extra": "^2.1.2",
     "npm": "^4.4.1",
     "tar-pack": "^3.4.0"
   },
