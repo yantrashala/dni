@@ -1,6 +1,6 @@
 {
   "name": "dni",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Node utility to download and install a deployable module and install its dependencies",
   "main": "index.js",
   "dependencies": {
