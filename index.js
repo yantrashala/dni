@@ -42,9 +42,12 @@ dni.ensureLocation = function(packagePath, input, moduleLocation, file, cb){
     fse.ensureDir(locationPath, function (err, data) {
       if (err) cb(err)
       moduleLocation = path.join(locationPath,input);
+	    dni.unpackModule(packagePath, input, moduleLocation, file, cb);
     });
   }
-  dni.unpackModule(packagePath, input, moduleLocation, file, cb);
+  else{
+	  dni.unpackModule(packagePath, input, moduleLocation, file, cb);
+  }
 }
 
 dni.unpackModule = function(packagePath, input, moduleLocation, file, cb){
