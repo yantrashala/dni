@@ -7,5 +7,5 @@ node_js:
   - "4"
 
 before_script:
-  - npm install -g gulp
-script: gulp
+  - npm install -g mocha
+script: mocha test/index-test.js -t 15000 
