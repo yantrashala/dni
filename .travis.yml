@@ -5,3 +5,7 @@ node_js:
   - "6"
   - "5"
   - "4"
+
+before_script:
+  - npm install -g mocha
+script: mocha test/index-test.js -t 15000 

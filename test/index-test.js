@@ -12,7 +12,7 @@ describe('index.js', function () {
     it('should execute deployAndInstall', function (done) {
       dni.deployAndInstall(input, function (err, data) {
         console.log(data);
-        expect(data).to.equal('DONE!!!');
+        expect(data).to.equal('DONE');
         done();
       });
     });

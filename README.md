@@ -23,13 +23,24 @@ npm install dni -g
 - Unzips the downloaded package.
 - Installs the dependencies from its package.json.
 
-#### Usage
+#### Usage 1 (module to be downloaded in the current working directory)
 
 ```
 $ dni <module_name>
 ```
 
-#### Example
+#### Example 1
 ```
 $ dni npm-install-all
+```
+
+#### Usage 2 (module to be downloaded in some different directory)
+
+```
+$ dni <module_name> <path>
+```
+
+#### Example 2
+```
+$ dni npm-install-all "d:\test\abc"
 ```
